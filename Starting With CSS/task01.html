@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Priority Example</title>
+
+    <!-- External CSS file (link to an external stylesheet) -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Internal CSS (styles written directly in the head section) -->
+    <style>
+        .box {
+            background-color: lightblue; /* Internal CSS sets background color */
+            color: darkblue;
+            padding: 20px;
+            margin: 10px;
+            border: 2px solid blue;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Inline CSS (styles applied directly to an element) -->
+    <div class="box" style="background-color: lightcoral; color: white;">
+        This div uses inline, internal, and external CSS.
+    </div>
+
+    <div class="box">
+        This div uses internal and external CSS only.
+    </div>
+
+    <div class="box" id="unique-box">
+        This div is targeted by an ID in the external CSS file.
+    </div>
+
+</body>
+</html>

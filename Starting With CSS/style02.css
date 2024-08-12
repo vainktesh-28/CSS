@@ -1,0 +1,21 @@
+.para-1{
+    background-color: aliceblue;
+    height: 50px;
+    border: 1px solid blue;
+    text-align: center
+}
+
+.para-2{
+    background-color: aqua;
+    height: 50px;
+    border: 1px solid blue;
+    text-align: center;
+}
+
+.para-3{
+    background-color: lightpink;
+
+    height: 50px;
+    border: 1px solid blue;
+    text-align: center;
+}
