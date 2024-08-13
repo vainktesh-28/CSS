@@ -1,0 +1,10 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navigation-bar{
+    height: 60px;
+    background-color: lightblue;
+    padding: 15px;
+}
