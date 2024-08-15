@@ -1,0 +1,14 @@
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.image{
+    height: 600px;
+    width: 500px;
+    background-image: url(IMG-20230517-WA0003.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
